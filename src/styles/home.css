@@ -50,7 +50,8 @@ nav {
 }
 
 body {
-    min-height: 200vh;
+    min-height: 100vh;
+    background-color: gray;
 }
 
 .home-header {
@@ -62,7 +63,6 @@ body {
     flex-direction: column;
     gap: 30px;
     place-items: center;
-    background-color: gray;
     padding-top: 10px;
 }
 

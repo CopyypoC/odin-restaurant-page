@@ -1,0 +1,11 @@
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    place-items: center;
+    margin-top: 10px;
+}
+
+.menu-header, .item-container {
+    background-color: blanchedalmond;
+}
