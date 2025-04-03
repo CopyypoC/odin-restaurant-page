@@ -1,6 +1,6 @@
 import { elementFromHtml } from "./elementFromHtml.js";
 
-export const homePage = elementFromHtml(`
+export const home = elementFromHtml(`
 <div class="home-container">
     <div class="home-header">
         <h1>Sally's Single Soft Serve</h1>
