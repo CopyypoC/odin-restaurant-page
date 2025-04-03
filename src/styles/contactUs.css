@@ -1,0 +1,16 @@
+.contact-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    place-items: center;
+}
+
+.contact-header {
+    background-color: blanchedalmond;
+}
+
+.contact-info {
+    min-width: 40ch;
+    background-color: blanchedalmond;
+}

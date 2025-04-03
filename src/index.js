@@ -1,7 +1,9 @@
 import './styles/home.css';
 import './styles/menu.css';
+import './styles/contactUs.css';
 import { home } from './scripts/home.js'
 import { menu } from './scripts/menu.js';
+import { contactUs } from './scripts/contactUs.js';
 
 const content = document.querySelector('.content');
 const homeBtn = document.querySelector('.home-btn');
@@ -19,3 +21,6 @@ homeBtn.addEventListener('click', () => {
     content.replaceChildren(home);
 })
 
+contactUsBtn.addEventListener('click', () => {
+    content.replaceChildren(contactUs);
+})

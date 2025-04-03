@@ -1,5 +1,3 @@
-// White Mint chocolate chip but uses red-40 to dye it pink
-// WARNING: Red dye 40 contains benzene, a known cancer-causing substance.
 import { elementFromHtml } from "./elementFromHtml.js";
 
 export const menu = elementFromHtml(`
