@@ -7,7 +7,7 @@ export const home = elementFromHtml(`
     </div>
     <section class="home-about">
         Sally's is all about quality over quantity.
-        The one special soft serve to rule them all.
+        The one special soft serve to rule them all!
         That limited access is exactly what gives this
         experience a unique meaning that you won't forget
         for the rest of your life.

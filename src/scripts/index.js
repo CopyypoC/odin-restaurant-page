@@ -1,9 +1,9 @@
-import './styles/home.css';
-import './styles/menu.css';
-import './styles/contactUs.css';
-import { home } from './scripts/home.js'
-import { menu } from './scripts/menu.js';
-import { contactUs } from './scripts/contactUs.js';
+import '../styles/home.css';
+import '../styles/menu.css';
+import '../styles/contactUs.css';
+import { home } from './home.js'
+import { menu } from './menu.js';
+import { contactUs } from './contactUs.js';
 
 const content = document.querySelector('.content');
 const homeBtn = document.querySelector('.home-btn');

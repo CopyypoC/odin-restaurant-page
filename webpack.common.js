@@ -5,10 +5,8 @@ const path = require('path');
 
 // Main object of the config where you set options for webpack
 module.exports = {
-    // Enables useful names for modules and chunks
-    mode: 'development',
     // A file path from the config file to the entry module
-    entry: './src/index.js',
+    entry: './src/scripts/index.js',
     // Tells webpack how to write the compiled files to disk
     output: {
         filename: 'main.js',
@@ -43,18 +41,5 @@ module.exports = {
             // them compatible for bundling with other modules.
             },
         ],
-    },
-    // Create source maps from transformed code to the
-    // original code for easy debugging
-    devtool: 'eval-source-map',
-    // 'webpack-dev-server' sets options here 
-    devServer: {
-        // Auto updates the watched files and bundles for
-        // live reloading. JS files watched by default.
-        // Does not save to dist, just helps to see changes while
-        // developing, so still need to 'npx webpack' when done.
-        watchFiles: ['./src/template.html'],
-        // Auto open browser when using 'npx webpack serve'
-        open: true,
     },
 };
